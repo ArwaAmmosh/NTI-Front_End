@@ -1,0 +1,21 @@
+
+*{
+    border: solid;
+}
+#container{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    height: 110px;
+    justify-content: center;
+    
+}
+.w{
+    width:40px;
+
+}
+.b{
+    width:20px;
+    align-self: baseline;
+    height: 50px;
+    background-color: black;
+}
