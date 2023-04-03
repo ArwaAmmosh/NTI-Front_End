@@ -1,0 +1,62 @@
+
+#lab{
+    width:100%;
+    height: 30px;
+    background-color: black;
+    color: rgb(255,255,255);
+    font-size: medium;
+}
+input[type="button"]{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border: solid .01px;}
+#container{
+    height:250px;
+    width: 220px;
+    border: solid ;
+    display: flex;
+    flex-wrap: wrap;
+}
+input[type="button"]{
+    width: 50px;
+}
+#top{
+    margin:0px;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+  height: 10%;
+}
+#top input{
+ margin-top:0px ;
+ margin-bottom:0px ;
+}
+#l{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-between;
+}
+
+#right{
+    margin-top: 0px;
+  float: right;
+  width: 20%;
+  margin-left: 5%;
+
+}
+#right input{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+input[type="button"]:hover{
+ opacity: .85;
+ border: dotted .2px;
+}
