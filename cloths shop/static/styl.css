@@ -1,0 +1,133 @@
+
+#he{
+    position: fixed;
+    top: 0;
+}
+#lis{
+    display: block;
+    display: none;
+    position: absolute;
+    border: solid rgb(157, 15, 124);
+    padding: 0px;
+}
+#lis li{
+    display: block;
+    border-bottom: solid rgb(157, 15, 124);
+    
+}
+#con{
+    display: inline;
+    top: 10%;
+    width: 85%;
+    height: 5%px;
+
+    
+}
+#list{
+    position: relative;
+}
+#con li{
+    display: inline-block;
+    margin: 5px;
+
+}
+#con li:hover{
+    background-color: rgb(241, 194, 234);
+    text-decoration-line: underline;
+    border: solid rgb(157, 15, 124);
+}
+#list:hover #lis{
+    display:block;
+    text-align: center;
+    
+    
+
+}
+
+a{
+    text-decoration-line: none;
+   
+}
+#na{
+    display: flex;
+    top: 20px;
+    box-shadow: 2;
+    position: relative;
+    font-size: 30px;
+}
+#na div{
+    background-color: rgb(237, 149, 216);
+    width: 100%;
+    height: 35px;
+}
+#na img{
+   width: 5%;
+   height: 5%;
+   border-radius: 50%;
+   float: right;
+    position: relative;
+  left: 0%;
+   top:0%;
+}
+#im img{
+width: 100%;
+height: 600px;}
+#l{ 
+    float: left;
+    left: 60px;
+    box-shadow: rgb(241, 194, 234) 3px;
+    width: fit-content;
+   
+    
+}
+#l img{
+    width: 100%;
+    height: 100%;
+  margin-left: 50px;
+    
+    
+}
+#cont p{
+ border:solid rgb(157, 15, 124) 3px;
+ border-radius: 100px/50px;
+ width: 150px;
+ margin-left: 140px;
+ text-align: center;
+}
+#cont img:hover {
+  border-radius: 50%;
+  background-color: rgb(241, 194, 234);
+}
+#cont p:hover {
+ border-radius: 0;
+ width:150px;
+ text-align: center;
+ background-color: rgb(241, 194, 234);
+}
+#foo{
+    position: fixed;
+    bottom: 0;
+}
+#c{  
+    float:right;
+    right: 0px;
+    margin-left: 90px;
+    
+ 
+
+}
+#c img{
+     width: 100%;
+     height: 100%;
+    margin-left: 70px;
+}
+#cont{
+    display: flex;
+    width: 900px;
+    height: 300px;
+}
+#r img{
+    width: 100%;
+    height: 100%;
+   margin-left: 70px;
+}
