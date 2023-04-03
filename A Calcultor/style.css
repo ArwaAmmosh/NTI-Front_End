@@ -1,0 +1,68 @@
+
+#lab{
+    width:97%;
+    height: 30px;
+    background-color: black;
+    color: rgb(255,255,255);
+    font-size: medium;
+    
+}
+input[type="button"]{
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid .01px;}
+#container{
+    height:270px;
+    width: 220px;
+    border: solid ;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+
+}
+input[type="button"]{
+    width: 50px;
+}
+#top{
+    margin:0px;
+  width: 100%;
+  display: grid;
+   grid-template-columns: repeat(5,auto);
+  height: fit-content; 
+  justify-content: space-evenly;
+  height: 80px;
+}
+#top input{
+ height: 20px ;
+ width: 40px;
+ margin-bottom: 2px;
+}
+#l{
+    float: left;
+    display: grid;
+  grid-template-columns: repeat(3,auto);
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+#right{
+    margin-top: 0px;
+  float: right;
+  width: 20%;
+  margin-left: 3%;
+  margin-right: 0px;
+
+}
+#right input{
+    height: 100%;
+    width: 47.5px;
+    background-color: aqua;
+}
+input[type="button"]:hover{
+    background-color:rgb(128, 128, 128);
+ opacity: .3;
+ border: dotted .2px;
+}

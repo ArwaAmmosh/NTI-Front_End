@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <input type="text" id="lab" readonly>
+      <div id="top">
+     <input type="button" value="+" onclick="typel('+')">
+     <input type="button" value="-" onclick="typel('-')">
+    <input type="button" value="*" onclick="typel('*')">
+    <input type="button" value="/" onclick="typel('/')">
+     <input type="button" value="(" onclick="typel('(')">
+     <input type="button" value=")" onclick="typel(')')">
+     <input type="button" value="sin(" onclick="de(1)">
+     <input type="button" value="cos(" onclick="de(2)">
+     <input type="button" value="tan(" onclick="de(3)">
+     <input type="button" value="sinh(" onclick="de(4)">
+     <input type="button" value="cosh(" onclick="de(5)">
+     <input type="button" value="tanh(" onclick="de(6)">
+    <input type="button" value="^2" onclick="de(7)">
+    <input type="button" value="sqrt" onclick="de(8)">
+    <input type="button" value="log10" onclick="de(9)">
+    <input type="button" value="|N|" onclick="de(10)">
+    <input type="button" value="~" onclick="de(11)">
+   <input type="button" value="|N|" onclick="de(10)">
+    <input type="button" value="~" onclick="de(11)">
+    <input type="button" value="<--" onclick="cle()">
+
+
+   </div>
+   <div id="l">
+    <input type="button" value="1" onclick="typel(1)"  >
+    <input type="button" value="2"  onclick="typel(2)"  >
+    <input type="button" value="3"  onclick="typel(3)" >
+    <input type="button" value="4"  onclick="typel(4)" >
+    <input type="button" value="5"  onclick="typel(5)" >
+    <input type="button" value="6"  onclick="typel(6)" >
+    <input type="button" value="7"  onclick="typel(7)" >
+    <input type="button" value="8"  onclick="typel(8)" >
+    <input type="button" value="9"  onclick="typel(9)" >
+    <input type="button" value="0"  onclick="typel(0)" >
+    <input type="button" value="."  onclick="typel('.')" >
+    <input type="button" value="AC" style="background-color: rgb(229, 90, 90);" onclick="cl()">
+   </div>
+   <div id="right">
+    <input type="button" value="=" onclick="opr()"> 
+
+</div>
+</div>
+ 
+    <script src="script.js"></script>
+
+</body>
+</html>
