@@ -1,0 +1,22 @@
+legend{
+    font-size: 25px;
+    
+}
+label{
+    text-align: center;
+}
+fieldset{
+    border-radius:  10px 10px;
+    background-color: rgb(239, 219, 120);
+}
+body{
+    background-color: rgb(231, 204, 71);
+}
+::selection{
+    background-color: rgb(179, 151, 15);
+    color: rgb(231, 204, 71);
+}
+textarea{
+    width: 50%;
+    height: 50px;
+}
